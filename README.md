@@ -39,8 +39,8 @@ Run `draw.py` to generate the figure b on two seperate runs simulated with the `
 In command lines, to reproduce with the same parameters as in figure b
 ```
 mkdir result
-python --n_trials 10 --n_nodes 2000 --prefix "big" gd.py
-python --n_trials 10 --n_nodes 4000 --prefix "huge" gd.py
+python gd.py --n-trials 10 --n-nodes 2000 --prefix "big"
+python gd.py --n-trials 10 --n-nodes 4000 --prefix "huge"
 python draw.py
 ```
 
